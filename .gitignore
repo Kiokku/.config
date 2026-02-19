@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# temp/logs
+*.log
+*.tmp
+
+# local/private overrides (should stay on machine)
+*.local

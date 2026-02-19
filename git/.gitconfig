@@ -1,0 +1,17 @@
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	df = diff
+	ls = log
+	lp = log
+[user]
+	name = Mow
+	email = dvuch23@gmail.com
+[core]
+	excludesfile = /Users/maotianyu/.gitignore_global
+[http]
+	proxy = http://127.0.0.1:7890
+[https]
+	proxy = http://127.0.0.1:7890
