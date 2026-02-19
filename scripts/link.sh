@@ -9,6 +9,7 @@ mkdir -p "$HOME/.config/lazygit"
 mkdir -p "$HOME/.config/yazi"
 mkdir -p "$HOME/.config/ohmyposh"
 mkdir -p "$HOME/.config/ghostty"
+mkdir -p "$HOME/.config/fastfetch"
 mkdir -p "$HOME/Library/Application Support/com.mitchellh.ghostty"
 mkdir -p "$HOME/Library/Application Support/lazygit"
 
@@ -51,6 +52,7 @@ link_file "$ROOT_DIR/yazi/yazi.toml" "$HOME/.config/yazi/yazi.toml"
 link_file "$ROOT_DIR/yazi/keymap.toml" "$HOME/.config/yazi/keymap.toml"
 link_file "$ROOT_DIR/yazi/theme.toml" "$HOME/.config/yazi/theme.toml"
 link_file "$ROOT_DIR/zsh/oh-my-posh/theme.omp.json" "$HOME/.config/ohmyposh/theme.omp.json"
+link_file "$ROOT_DIR/fastfetch/config.jsonc" "$HOME/.config/fastfetch/config.jsonc"
 
 # repo-level shared files
 if [ -L "$HOME/.config/terminal-config" ]; then

@@ -3,6 +3,7 @@ brew "ghostty"
 brew "zsh"
 brew "tmux"
 brew "yazi"
+brew "fastfetch"
 
 # Prompt & navigation
 brew "oh-my-posh"

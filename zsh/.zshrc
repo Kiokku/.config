@@ -268,3 +268,8 @@ source fzf.zsh
 # on-my-posh theme.json
 eval "$(oh-my-posh init zsh --config ~/themes.json)"
 export TERM=xterm-256color
+
+# fastfetch
+if [[ -o interactive ]] && command -v fastfetch >/dev/null 2>&1; then
+  fastfetch --load-config "$HOME/.config/fastfetch/config.jsonc"
+fi

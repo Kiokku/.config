@@ -2,6 +2,7 @@
 
 My terminal/dev environment configs:
 - Ghostty
+- fastfetch
 - Zsh (zimfw, zfz, oh-my-posh)
 - Git + lazygit
 - tmux
@@ -10,6 +11,7 @@ My terminal/dev environment configs:
 ## Structure
 
 - `ghostty/`: Ghostty config
+- `fastfetch/`: fastfetch config
 - `zsh/`: zsh + zimfw + zfz + oh-my-posh
 - `git/`: git and lazygit config
 - `tmux/`: tmux config
@@ -28,6 +30,7 @@ This repo is synced from the following active local paths:
 - `~/.gitignore_global`
 - `~/Library/Application Support/com.mitchellh.ghostty/config`
 - `~/Library/Application Support/lazygit/config.yml`
+- `~/.config/fastfetch/config.jsonc`
 
 ## Quick Start
 

@@ -19,6 +19,7 @@ check_cmd tmux
 check_cmd yazi
 check_cmd oh-my-posh
 check_cmd fzf
+check_cmd fastfetch
 
 echo
 echo "Checking linked files..."
